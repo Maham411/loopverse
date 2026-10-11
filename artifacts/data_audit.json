@@ -1,0 +1,130 @@
+{
+  "batch_properties": {
+    "batch_1": {
+      "timezone": "UTC",
+      "unit_type": "PM2.5"
+    },
+    "batch_2": {
+      "timezone": "PKT",
+      "unit_type": "AQI"
+    }
+  },
+  "networks": {
+    "batch_1": {
+      "file": "batch_1_sensor_data.csv",
+      "timezone": "UTC",
+      "unit": "PM2.5",
+      "rows": 1800,
+      "sensors": 15,
+      "local_date_range": [
+        "2026-07-01",
+        "2026-10-28"
+      ],
+      "local_hours_after_alignment": [
+        0
+      ],
+      "sentinel_minus_999": 27,
+      "negative_values": 0,
+      "duplicate_sensor_days": 0,
+      "flatline_runs": [
+        {
+          "sensor_id": "S07",
+          "start": "2026-08-25",
+          "end": "2026-08-27",
+          "days": 3,
+          "stuck_value": 71.8
+        }
+      ]
+    },
+    "batch_2": {
+      "file": "batch_2_sensor_data.csv",
+      "timezone": "PKT",
+      "unit": "AQI",
+      "rows": 1800,
+      "sensors": 15,
+      "local_date_range": [
+        "2026-07-01",
+        "2026-10-28"
+      ],
+      "local_hours_after_alignment": [
+        0
+      ],
+      "sentinel_minus_999": 29,
+      "negative_values": 0,
+      "duplicate_sensor_days": 0,
+      "flatline_runs": [
+        {
+          "sensor_id": "S01",
+          "start": "2026-07-26",
+          "end": "2026-07-28",
+          "days": 3,
+          "stuck_value": 159.0
+        },
+        {
+          "sensor_id": "S07",
+          "start": "2026-08-25",
+          "end": "2026-08-27",
+          "days": 3,
+          "stuck_value": 159.0
+        },
+        {
+          "sensor_id": "S07",
+          "start": "2026-09-18",
+          "end": "2026-09-20",
+          "days": 3,
+          "stuck_value": 171.0
+        },
+        {
+          "sensor_id": "S14",
+          "start": "2026-07-13",
+          "end": "2026-07-15",
+          "days": 3,
+          "stuck_value": 153.0
+        }
+      ]
+    }
+  },
+  "cross_network": {
+    "sensor_days_with_both_valid": 1732,
+    "mean_abs_diff_ug": 0.436,
+    "max_abs_diff_ug": 5.209,
+    "aqi_exact_match_rate": 0.9828,
+    "note": "batch_2 AQI equals the EPA AQI of batch_1 PM2.5 once batch_1 is shifted from UTC to PKT; without the shift the days misalign by one."
+  },
+  "flatline_confirmed_both_networks": [
+    {
+      "sensor_id": "S07",
+      "start": "2026-08-25",
+      "end": "2026-08-27",
+      "days": 3,
+      "stuck_value": 71.8,
+      "aqi_network_stuck_value": 159.0
+    }
+  ],
+  "flatline_note": "Runs of 3+ identical readings are dropped in each network. In the AQI network short runs also occur from integer rounding (1 AQI step is about 1.9 ug/m3 in the 151-200 band); for those days the PM2.5 network still varies, so its reading is kept. Only a run seen in BOTH networks is a confirmed hardware fault.",
+  "sentinel_filled_from_other_network": 56,
+  "interpolated_sensor_days": [
+    {
+      "sensor_id": "S07",
+      "date": "2026-08-25"
+    },
+    {
+      "sensor_id": "S07",
+      "date": "2026-08-26"
+    },
+    {
+      "sensor_id": "S07",
+      "date": "2026-08-27"
+    }
+  ],
+  "final": {
+    "rows": 1800,
+    "sensors": 15,
+    "date_range": [
+      "2026-07-01",
+      "2026-10-28"
+    ],
+    "missing_after_cleaning": 0,
+    "hazardous_sensor_days": 55
+  }
+}

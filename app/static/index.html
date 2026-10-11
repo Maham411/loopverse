@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmogGuard AI — Predict. Explain. Protect.</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>SmogGuard <span>AI</span></h1>
+      <p class="tagline">Predict. Explain. Protect.</p>
+    </div>
+    <div class="status" id="status" aria-label="System status"></div>
+    <p class="window" id="window-note">Loading data…</p>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-line">
+      <p id="hero-line" class="hero-line">Loading tomorrow’s forecast…</p>
+      <div class="metrics" id="metrics"></div>
+    </section>
+
+    <div class="layout">
+      <div class="col-main">
+        <section class="panel" aria-labelledby="grid-title">
+          <div class="panel-head">
+            <h2 id="grid-title">Haze grid</h2>
+            <p class="hint">Forecast daily PM2.5 (µg/m³) for each covered area. Select a day to update the map.</p>
+          </div>
+          <div class="grid-wrap"><table class="haze" id="haze"></table></div>
+          <div class="legend" id="legend"></div>
+        </section>
+
+        <section class="panel two" aria-labelledby="map-title">
+          <div>
+            <div class="panel-head">
+              <h2 id="map-title">Hotspots on <span id="map-date"></span></h2>
+              <p class="hint">Schematic positions (approximate). Circle labels are sensor IDs.</p>
+            </div>
+            <svg id="map" viewBox="0 0 420 320" role="img" aria-label="Schematic map of sensor areas"></svg>
+          </div>
+          <div>
+            <div class="panel-head"><h2>Area detail</h2></div>
+            <div id="area-detail" class="area-detail"><p class="hint">Select a circle or a row.</p></div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="trend-title">
+          <div class="panel-head">
+            <h2 id="trend-title">City average</h2>
+            <p class="hint">Observed (solid) and forecast (dashed) mean of the 15 areas.</p>
+          </div>
+          <svg id="trend" viewBox="0 0 640 200" role="img" aria-label="City average trend"></svg>
+        </section>
+
+        <section class="panel" aria-labelledby="dq-title">
+          <div class="panel-head">
+            <h2 id="dq-title">Data quality and sensor trust</h2>
+            <p class="hint">What was wrong in the raw files and what we did about it.</p>
+          </div>
+          <ul class="checks" id="dq"></ul>
+        </section>
+
+        <section class="panel two" aria-labelledby="model-title">
+          <div>
+            <div class="panel-head"><h2 id="model-title">Forecast model</h2></div>
+            <div id="model"></div>
+          </div>
+          <div>
+            <div class="panel-head"><h2>Documents</h2></div>
+            <ul class="docs" id="docs"></ul>
+          </div>
+        </section>
+      </div>
+
+      <aside class="col-chat" aria-labelledby="chat-title">
+        <section class="panel chat">
+          <div class="panel-head">
+            <h2 id="chat-title">Ask SmogGuard</h2>
+            <p class="hint">Answers come only from the supplied documents and the forecast. English or Roman Urdu.</p>
+          </div>
+          <div class="suggest" id="suggest"></div>
+          <div class="log" id="log" aria-live="polite"></div>
+          <form class="ask" id="ask-form" autocomplete="off">
+            <label class="sr" for="q">Your question</label>
+            <textarea id="q" rows="2" placeholder="e.g. Will schools in Gulberg close tomorrow?"></textarea>
+            <div class="ask-row">
+              <label class="sr" for="voice-lang">Voice language</label>
+              <select id="voice-lang" title="Speech recognition language">
+                <option value="en-US">English</option>
+                <option value="en-IN">Roman Urdu (Latin script)</option>
+                <option value="ur-PK">اردو (Urdu script)</option>
+              </select>
+              <button type="button" id="mic" class="mic" aria-pressed="false" aria-label="Speak your question">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+              </button>
+              <button type="submit" id="send" class="send">Ask</button>
+            </div>
+            <p class="mic-status" id="mic-status" role="status"></p>
+          </form>
+        </section>
+      </aside>
+    </div>
+  </main>
+  <footer class="foot">
+    Forecasts are a team model (Ridge regression) built for the Lahore Smog Intelligence Challenge, not official alerts.
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

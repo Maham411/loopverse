@@ -1,0 +1,492 @@
+{
+  "split": {
+    "train_targets": [
+      "2026-07-29",
+      "2026-09-30"
+    ],
+    "test_targets": [
+      "2026-10-01",
+      "2026-10-28"
+    ],
+    "train_rows": 957,
+    "test_rows": 420,
+    "shuffled": false
+  },
+  "selection": [
+    {
+      "features": "lags",
+      "alpha": 0.1,
+      "n": 450,
+      "mae": 13.658,
+      "rmse": 21.015,
+      "bias": -1.129,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags",
+      "alpha": 1.0,
+      "n": 450,
+      "mae": 13.659,
+      "rmse": 21.017,
+      "bias": -1.148,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags",
+      "alpha": 10.0,
+      "n": 450,
+      "mae": 13.67,
+      "rmse": 21.035,
+      "bias": -1.316,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags",
+      "alpha": 100.0,
+      "n": 450,
+      "mae": 13.832,
+      "rmse": 21.293,
+      "bias": -2.343,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_lag1",
+      "alpha": 0.1,
+      "n": 450,
+      "mae": 13.979,
+      "rmse": 21.164,
+      "bias": 0.813,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_lag1",
+      "alpha": 1.0,
+      "n": 450,
+      "mae": 13.981,
+      "rmse": 21.165,
+      "bias": 0.808,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_lag1",
+      "alpha": 10.0,
+      "n": 450,
+      "mae": 13.993,
+      "rmse": 21.172,
+      "bias": 0.754,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_lag1",
+      "alpha": 100.0,
+      "n": 450,
+      "mae": 14.122,
+      "rmse": 21.33,
+      "bias": 0.199,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_target_day",
+      "alpha": 0.1,
+      "n": 450,
+      "mae": 13.845,
+      "rmse": 21.125,
+      "bias": -1.581,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_target_day",
+      "alpha": 1.0,
+      "n": 450,
+      "mae": 13.847,
+      "rmse": 21.126,
+      "bias": -1.589,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_target_day",
+      "alpha": 10.0,
+      "n": 450,
+      "mae": 13.868,
+      "rmse": 21.144,
+      "bias": -1.663,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    },
+    {
+      "features": "lags+weather_target_day",
+      "alpha": 100.0,
+      "n": 450,
+      "mae": 14.022,
+      "rmse": 21.364,
+      "bias": -2.107,
+      "hazardous_days": 10,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 10,
+      "precision": null,
+      "accuracy": 0.978
+    }
+  ],
+  "test_october": {
+    "ridge_one_step": {
+      "n": 420,
+      "mae": 13.861,
+      "rmse": 21.667,
+      "bias": -1.925,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.969
+    },
+    "ridge_recursive_10day": {
+      "n": 300,
+      "mae": 15.353,
+      "rmse": 24.424,
+      "bias": -3.361,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.957
+    }
+  },
+  "baselines_october": {
+    "persistence_lag1": {
+      "n": 420,
+      "mae": 18.673,
+      "rmse": 28.33,
+      "bias": -0.089,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.077,
+      "hazardous_caught": 1,
+      "false_alarms": 13,
+      "missed_hazardous": 12,
+      "precision": 0.071,
+      "accuracy": 0.94
+    },
+    "rolling_mean_7d": {
+      "n": 420,
+      "mae": 14.804,
+      "rmse": 22.557,
+      "bias": -2.087,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 3,
+      "missed_hazardous": 13,
+      "precision": 0.0,
+      "accuracy": 0.962
+    },
+    "rolling_mean_14d": {
+      "n": 420,
+      "mae": 14.509,
+      "rmse": 22.396,
+      "bias": -4.092,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.969
+    },
+    "always_not_hazardous": {
+      "n": 420,
+      "mae": 120.249,
+      "rmse": 123.306,
+      "bias": -120.249,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.969
+    },
+    "linear_regression_same_features": {
+      "n": 420,
+      "mae": 13.861,
+      "rmse": 21.667,
+      "bias": -1.924,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.969
+    },
+    "gradient_boosting_all_features": {
+      "n": 420,
+      "mae": 19.04,
+      "rmse": 25.958,
+      "bias": 4.132,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 3,
+      "missed_hazardous": 13,
+      "precision": 0.0,
+      "accuracy": 0.962
+    }
+  },
+  "chosen": {
+    "model": "Ridge regression (L2)",
+    "features": "lags",
+    "feature_list": [
+      "lag1",
+      "roll3",
+      "roll7",
+      "roll14",
+      "roll28"
+    ],
+    "alpha": 0.1,
+    "selected_on": "recursive 10-day backtests at cutoffs ['2026-09-01', '2026-09-10', '2026-09-20']"
+  },
+  "alarm_threshold_sweep_october": [
+    {
+      "alarm_if_pred_at_or_above": 165,
+      "hazardous_days": 13,
+      "hazardous_caught": 0,
+      "false_alarms": 0
+    },
+    {
+      "alarm_if_pred_at_or_above": 150,
+      "hazardous_days": 13,
+      "hazardous_caught": 0,
+      "false_alarms": 0
+    },
+    {
+      "alarm_if_pred_at_or_above": 140,
+      "hazardous_days": 13,
+      "hazardous_caught": 1,
+      "false_alarms": 36
+    },
+    {
+      "alarm_if_pred_at_or_above": 130,
+      "hazardous_days": 13,
+      "hazardous_caught": 7,
+      "false_alarms": 137
+    },
+    {
+      "alarm_if_pred_at_or_above": 120,
+      "hazardous_days": 13,
+      "hazardous_caught": 8,
+      "false_alarms": 200
+    }
+  ],
+  "alarm": {
+    "threshold": 130,
+    "definition": "Advisory early-warning WATCH level, shown in the dashboard and assistant only. predictions.csv keeps the official SPEC rule: hazardous = predicted PM2.5 >= 165.",
+    "applied_to_predictions_csv": false,
+    "why": "Hazardous days are sudden spikes that no model here can predict, so the official 165 rule on a smooth forecast flags nothing (like the 'always not hazardous' model). The alert level is calibrated on recall and false alarms, as the handbook recommends.",
+    "chosen_on": "F1 on recursive 10-day backtests at ['2026-09-01', '2026-09-10', '2026-09-20']",
+    "selection_table": [
+      {
+        "alarm_at": 165,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 160,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 155,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 150,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 145,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 140,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 135,
+        "caught": 0,
+        "hazardous_days": 10,
+        "false_alarms": 0,
+        "f1": 0.0
+      },
+      {
+        "alarm_at": 130,
+        "caught": 2,
+        "hazardous_days": 10,
+        "false_alarms": 10,
+        "f1": 0.1818
+      },
+      {
+        "alarm_at": 125,
+        "caught": 3,
+        "hazardous_days": 10,
+        "false_alarms": 52,
+        "f1": 0.0923
+      },
+      {
+        "alarm_at": 120,
+        "caught": 5,
+        "hazardous_days": 10,
+        "false_alarms": 81,
+        "f1": 0.1042
+      },
+      {
+        "alarm_at": 115,
+        "caught": 6,
+        "hazardous_days": 10,
+        "false_alarms": 115,
+        "f1": 0.0916
+      }
+    ],
+    "test_october_recursive": {
+      "n": 300,
+      "mae": 15.353,
+      "rmse": 24.424,
+      "bias": -3.361,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.538,
+      "hazardous_caught": 7,
+      "false_alarms": 105,
+      "missed_hazardous": 6,
+      "precision": 0.062,
+      "accuracy": 0.63
+    },
+    "test_october_recursive_at_165": {
+      "n": 300,
+      "mae": 15.353,
+      "rmse": 24.424,
+      "bias": -3.361,
+      "hazardous_days": 13,
+      "hazardous_recall": 0.0,
+      "hazardous_caught": 0,
+      "false_alarms": 0,
+      "missed_hazardous": 13,
+      "precision": null,
+      "accuracy": 0.957
+    }
+  },
+  "weights_trained_to_sep30": {
+    "intercept": 12.841,
+    "lag1": 0.0361,
+    "roll3": -0.0305,
+    "roll7": -0.0633,
+    "roll14": 0.252,
+    "roll28": 0.7412
+  },
+  "weights_final": {
+    "intercept": 11.758,
+    "lag1": 0.0734,
+    "roll3": -0.0684,
+    "roll7": 0.0182,
+    "roll14": 0.1182,
+    "roll28": 0.8117
+  },
+  "final_training_rows": 1377,
+  "holdout": {
+    "last_observed_date": "2026-10-28",
+    "origins_with_observed_data": 15,
+    "origins_filled_with_own_forecasts": 135,
+    "predicted_range": [
+      103.19,
+      153.01
+    ],
+    "hazardous_predictions": 0,
+    "rule_in_predictions_csv": "predicted_pm25 >= 165 (SPEC section 3)",
+    "watch_level_advisory": 130,
+    "on_watch_advisory": 89
+  }
+}

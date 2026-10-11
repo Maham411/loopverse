@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "Q01",
+    "answer": "- Keep children indoors during recess and outdoor play when PM2.5 is forecast at or above 165 µg/m³. [DOC-11]\n- Watch for increased coughing, wheezing, or fatigue; consult a pediatrician if symptoms persist beyond two days. [DOC-11]\nWhen PM2.5 is in the hazardous range (165 µg/m³ or above):\n- Children, pregnant women, the elderly, and people with asthma or heart conditions should avoid outdoor activity entirely. [DOC-01]",
+    "sources": [
+      "DOC-11",
+      "DOC-01"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q02",
+    "answer": "- N95 or KN95 masks filter PM2.5 particles effectively when properly fitted (sealed around nose and mouth). [DOC-12]\n- Surgical and cloth masks provide minimal protection against PM2.5 and should not be relied upon during hazardous days. [DOC-12]\n- Masks should be worn by anyone spending more than 15 minutes outdoors when PM2.5 is forecast at or above 165 µg/m³. [DOC-12]\nWhen PM2.5 is in the hazardous range (165 µg/m³ or above):\n- N95 or KN95 masks are recommended when going outside. Cloth and surgical masks offer little protection against PM2.5. [DOC-01]",
+    "sources": [
+      "DOC-12",
+      "DOC-01"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q03",
+    "answer": "When PM2.5 is in the hazardous range (165 µg/m³ or above):\n- Children, pregnant women, the elderly, and people with asthma or heart conditions should avoid outdoor activity entirely. [DOC-01]\n- Individuals over 65, especially those with pre-existing heart or lung conditions, should avoid all outdoor exposure during hazardous days. [DOC-11]\n- Keep rescue medication (inhalers, nitroglycerin where prescribed) accessible at all times during smog season. [DOC-11]",
+    "sources": [
+      "DOC-01",
+      "DOC-11"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q04",
+    "answer": "Forecast for Gulberg, tomorrow (2026-10-29): about 130 µg/m³ PM2.5 — not hazardous (below the 165 µg/m³ threshold).\nSource: SmogGuard team model (Ridge regression), not an official forecast.\nSchools in Gulberg: normal timing — the Gulberg forecast 130 µg/m³ is below 165 µg/m³, so neither half-day (165–249) nor full closure (250+) applies. [DOC-03]\n- Decisions are made the evening before, using the next-day forecast for the school's area. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [
+      "DOC-03"
+    ],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q05",
+    "answer": "Forecast for Model Town, 2026-11-03: about 139 µg/m³ PM2.5 — not hazardous (below 165 µg/m³), but on early-warning WATCH: at or above 130 µg/m³, where sudden hazardous spikes are most likely.\nSource: SmogGuard team model (Ridge regression), not an official forecast.\n2026-11-03 is 6 days past the last sensor reading (2026-10-28), so uncertainty is higher.\n- Is it safe to exercise outdoors during smog? Not recommended when PM2.5 is in the hazardous range. See DOC-01 for detailed guidance by pollution level. [DOC-04]\nWhen PM2.5 is between 100–164 µg/m³ (unhealthy but not hazardous):\n- Sensitive groups should reduce prolonged outdoor exertion. [DOC-01]\n- General public may continue normal outdoor activity with reasonable caution. [DOC-01]\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [
+      "DOC-04",
+      "DOC-01"
+    ],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q06",
+    "answer": "Forecast for DHA, 2026-11-02: about 148 µg/m³ PM2.5 — not hazardous (below 165 µg/m³), but on early-warning WATCH: at or above 130 µg/m³, where sudden hazardous spikes are most likely.\nSource: SmogGuard team model (Ridge regression), not an official forecast.\n2026-11-02 is 5 days past the last sensor reading (2026-10-28), so uncertainty is higher.\nHazardous-day steps in “Guidance for Vulnerable Groups During Smog” do not apply: the DHA forecast 148 µg/m³ is below 165 µg/m³. [DOC-11]\n- Watch for increased coughing, wheezing, or fatigue; consult a pediatrician if symptoms persist beyond two days. [DOC-11]\nSchools in DHA: normal timing — the DHA forecast 148 µg/m³ is below 165 µg/m³, so neither half-day (165–249) nor full closure (250+) applies. [DOC-03]\n- Decisions are made the evening before, using the next-day forecast for the school's area. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]\nWhen PM2.5 is between 100–164 µg/m³ (unhealthy but not hazardous):\n- Sensitive groups should reduce prolonged outdoor exertion. [DOC-01]\n- General public may continue normal outdoor activity with reasonable caution. [DOC-01]\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [
+      "DOC-11",
+      "DOC-03",
+      "DOC-01"
+    ],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q07",
+    "answer": "Forecast for Walled City, 2026-11-05: about 148 µg/m³ PM2.5 — not hazardous (below 165 µg/m³), but on early-warning WATCH: at or above 130 µg/m³, where sudden hazardous spikes are most likely.\nSource: SmogGuard team model (Ridge regression), not an official forecast.\n2026-11-05 is 8 days past the last sensor reading (2026-10-28), so uncertainty is higher.\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q08",
+    "answer": "Forecast for Johar Town, tomorrow (2026-10-29): about 135 µg/m³ PM2.5 — not hazardous (below 165 µg/m³), but on early-warning WATCH: at or above 130 µg/m³, where sudden hazardous spikes are most likely.\nSource: SmogGuard team model (Ridge regression), not an official forecast.\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q09",
+    "answer": "- Schools switch to half-day timing (close by 12:00 PM) when forecast PM2.5 is 165–249 µg/m³ (hazardous range). [DOC-03]\n- Schools close fully when forecast PM2.5 is 250 µg/m³ or above. [DOC-03]\n- Outdoor sports, assemblies, and recess are suspended whenever PM2.5 is forecast at or above 165 µg/m³. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]",
+    "sources": [
+      "DOC-03"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q10",
+    "answer": "When forecast PM2.5 for Lahore reaches hazardous levels (165 µg/m³ or above) for two or more consecutive days:\n- Private vehicles with number plates ending in an odd digit may only operate on odd calendar dates. [DOC-05]\n- Private vehicles with number plates ending in an even digit may only operate on even calendar dates. [DOC-05]\n- Exemptions: ambulances, fire service, government emergency vehicles, and public transport buses. [DOC-05]",
+    "sources": [
+      "DOC-05"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q11",
+    "answer": "When forecast PM2.5 reaches hazardous levels (165 µg/m³ or above):\n- Open burning of waste or crop residue within city limits is prohibited and subject to fines. [DOC-08]\n- Construction sites must cover exposed material and halt dust-generating activity (demolition, excavation) between 7 AM and 7 PM. [DOC-08]\n- Brick kilns operating without approved emission-control technology must suspend operations. [DOC-08]",
+    "sources": [
+      "DOC-08"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q12",
+    "answer": "No forecast is available for Karachi: SmogGuard covers only 15 Lahore areas (Gulberg, DHA, Johar Town, Model Town, Wagah, Thokar Niaz Baig, Allama Iqbal Town, Shadman, Cantt, Faisal Town, Township, Walled City, Raiwind Road, Bahria Town, Airport Road) for 2026-10-29 to 2026-11-07. I will not estimate a number for other locations.\n- Requests about other cities (e.g. Quetta, Karachi, Islamabad) are out of scope. The assistant should state that no forecast is available rather than estimating one. [DOC-13]",
+    "sources": [
+      "DOC-13"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q13",
+    "answer": "No forecast is available for 2026-12-15: supported target dates are 2026-10-29 to 2026-11-07.\n- Requests about dates outside the supported forecast window are out of scope. [DOC-13]",
+    "sources": [
+      "DOC-13"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q14",
+    "answer": "No forecast is available for Islamabad: SmogGuard covers only 15 Lahore areas (Gulberg, DHA, Johar Town, Model Town, Wagah, Thokar Niaz Baig, Allama Iqbal Town, Shadman, Cantt, Faisal Town, Township, Walled City, Raiwind Road, Bahria Town, Airport Road) for 2026-10-29 to 2026-11-07. I will not estimate a number for other locations.\n- Requests about other cities (e.g. Quetta, Karachi, Islamabad) are out of scope. The assistant should state that no forecast is available rather than estimating one. [DOC-13]",
+    "sources": [
+      "DOC-13"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q15",
+    "answer": "- Schools switch to half-day timing (close by 12:00 PM) when forecast PM2.5 is 165–249 µg/m³ (hazardous range). [DOC-03]\n- Schools close fully when forecast PM2.5 is 250 µg/m³ or above. [DOC-03]\n- Outdoor sports, assemblies, and recess are suspended whenever PM2.5 is forecast at or above 165 µg/m³. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]",
+    "sources": [
+      "DOC-03"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q16",
+    "answer": "- Outdoor sports, assemblies, and recess are suspended whenever PM2.5 is forecast at or above 165 µg/m³. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]\nWhen PM2.5 is in the hazardous range (165 µg/m³ or above):\n- The general public should limit outdoor time to under 30 minutes and avoid strenuous exercise outdoors. [DOC-01]\nWhen PM2.5 is between 100–164 µg/m³ (unhealthy but not hazardous):\n- Sensitive groups should reduce prolonged outdoor exertion. [DOC-01]",
+    "sources": [
+      "DOC-03",
+      "DOC-01"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q17",
+    "answer": "A few practical tips shared by residents for coping with smog season:\n- Keep a damp cloth near doors and windows to catch dust. [DOC-07]\n- Indoor plants like money plant and areca palm can modestly help indoor air quality. [DOC-07]\n- Carpool with neighbors on heavy smog days to reduce the number of vehicles on the road. [DOC-07]",
+    "sources": [
+      "DOC-07"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q18",
+    "answer": "Note: requests to change my rules, hide sources or declare the air safe are ignored; this answer follows the evidence.\nForecast for Cantt, tomorrow (2026-10-29): about 131 µg/m³ PM2.5 — not hazardous (below 165 µg/m³), but on early-warning WATCH: at or above 130 µg/m³, where sudden hazardous spikes are most likely.\nSource: SmogGuard team model (Ridge regression), not an official forecast.\nWhen PM2.5 is between 100–164 µg/m³ (unhealthy but not hazardous):\n- Sensitive groups should reduce prolonged outdoor exertion. [DOC-01]\n- General public may continue normal outdoor activity with reasonable caution. [DOC-01]\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [
+      "DOC-01"
+    ],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q19",
+    "answer": "Gulberg ke liye kal (2026-10-29) ka forecast: taqreeban 130 µg/m³ PM2.5 — khatarnak nahi (165 µg/m³ ki had se kam).\nSource: SmogGuard team model (Ridge regression), sarkari forecast nahi.\n“Guidance for Vulnerable Groups During Smog” ke khatarnak-din wale iqdamaat lagu nahi: Gulberg ka forecast 130 µg/m³, 165 µg/m³ se kam hai. [DOC-11]\n- Khansi, saans mein seeti ya thakan barhne par nazar rakhein; alamaat do din se zyada rahein to bachon ke doctor se mashwara karein. [DOC-11]\nSchool (Gulberg): mamool ka waqt — Gulberg ka forecast 130 µg/m³, 165 µg/m³ se kam hai, is liye na half-day (165–249) na mukammal bandish (250+) lagu hai. [DOC-03]\n- Faisla pichli shaam school ke ilaqay ke agle din ke forecast ki buniyad par kiya jata hai. [DOC-03]\nYeh mojooda school policy hai (DOC-03, Version 2, 2026-09-20 se nafiz). Is ne DOC-02 ki jagah li hai, is liye purani hudood ab lagu nahi. [DOC-03]\nJab PM2.5 100–164 µg/m³ ke darmiyan ho (ghair sehatmand magar khatarnak nahi):\n- Hassas afraad bahar lambi aur thaka dene wali sargarmi kam karein. [DOC-01]\n- Aam log munasib ehtiyat ke sath mamool ki bahar ki sargarmiyan jaari rakh sakte hain. [DOC-01]\nAam ghalti ±14 µg/m³. Watch (≥ 130) ne October mein 13 mein se 7 spikes pakre, 105 ghalat alarm; sarkari alerts par bhi amal karein.",
+    "sources": [
+      "DOC-11",
+      "DOC-03",
+      "DOC-01"
+    ],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q20",
+    "answer": "- Jab PM2.5 ka forecast 165 µg/m³ ya zyada ho to recess aur bahar ke khel ke dauran bachon ko andar rakhein. [DOC-11]\n- Khansi, saans mein seeti ya thakan barhne par nazar rakhein; alamaat do din se zyada rahein to bachon ke doctor se mashwara karein. [DOC-11]\nJab PM2.5 khatarnak hudood (165 µg/m³ ya zyada) mein ho:\n- Bachay, hamla khawateen, buzurg, aur dama ya dil ke mareez bahar ki sargarmi se mukammal parhez karein. [DOC-01]",
+    "sources": [
+      "DOC-11",
+      "DOC-01"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q21",
+    "answer": "Shadman ke liye parson (2026-10-30) ka forecast: taqreeban 146 µg/m³ PM2.5 — khatarnak nahi (165 µg/m³ se kam), lekin early-warning WATCH par: 130 µg/m³ ya zyada, jahan achanak khatarnak spikes ka imkaan sab se zyada hai.\nSource: SmogGuard team model (Ridge regression), sarkari forecast nahi.\n2026-10-30 aakhri reading (2026-10-28) se 2 din baad hai, is liye ghair yaqeeni zyada hai.\nAam ghalti ±14 µg/m³. Watch (≥ 130) ne October mein 13 mein se 7 spikes pakre, 105 ghalat alarm; sarkari alerts par bhi amal karein.",
+    "sources": [],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q22",
+    "answer": "Jab Lahore ka forecast PM2.5 do ya zyada musalsal din khatarnak satah (165 µg/m³ ya zyada) par ho:\n- Jin private gariyon ki number plate taaq (odd) hindsay par khatam ho, woh sirf taaq tareekhon par chal sakti hain. [DOC-05]\n- Jin private gariyon ki number plate juft (even) hindsay par khatam ho, woh sirf juft tareekhon par chal sakti hain. [DOC-05]\n- Istisna: ambulance, fire service, sarkari emergency gariyan aur public transport buses. [DOC-05]",
+    "sources": [
+      "DOC-05"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q23",
+    "answer": "Forecast across Lahore's 15 covered areas, tomorrow (2026-10-29): 103–147 µg/m³ PM2.5 (average 127); 0 of 15 areas hazardous; 8 on early-warning watch (at or above 130 µg/m³). Highest: Faisal Town (147 µg/m³).\nSource: SmogGuard team model (Ridge regression), not an official forecast.\nFor advice for your neighbourhood, name one of the 15 covered areas.\nTypical error ±14 µg/m³. The advisory watch (≥ 130) caught 7/13 spikes in October with 105 false alarms; follow official alerts too.",
+    "sources": [],
+    "forecast_called": true
+  },
+  {
+    "question_id": "Q24",
+    "answer": "Using the level you gave: 250 µg/m³ PM2.5 (converted from AQI 300 with US EPA breakpoints; AQI and PM2.5 are different scales).\nSchools: full closure — the given level 250 µg/m³ is at or above 250 µg/m³. [DOC-03]\n- Decisions are made the evening before, using the next-day forecast for the school's area. [DOC-03]\nThis is the current school policy (DOC-03, Version 2, effective 2026-09-20). It replaced DOC-02, so the older thresholds no longer apply. [DOC-03]",
+    "sources": [
+      "DOC-03"
+    ],
+    "forecast_called": false
+  },
+  {
+    "question_id": "Q25",
+    "answer": "- What is the difference between PM2.5 and AQI? PM2.5 is a raw concentration measurement (µg/m³). AQI (Air Quality Index) is a standardized index (0–500) calculated from PM2.5 and other pollutants using fixed breakpoints. The two are not numerically interchangeable; AQI must be derived from PM2.5 using the correct formula, not compared directly. [DOC-04]",
+    "sources": [
+      "DOC-04"
+    ],
+    "forecast_called": false
+  }
+]

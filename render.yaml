@@ -1,0 +1,10 @@
+# Render blueprint: New + > Blueprint > pick this repo. Add GROQ_API_KEY in the dashboard (optional).
+services:
+  - type: web
+    name: smogguard-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
